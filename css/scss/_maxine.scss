@@ -1,0 +1,12 @@
+@mixin transition($transition...) {
+    -moz-transition:    $transition;
+    -o-transition:      $transition;
+    -webkit-transition: $transition;
+    transition:         $transition;
+}
+@mixin transformTranslate($L,$T) {
+    -moz-transform:    translate($L , $T);
+    -o-transform:      translate($L , $T);
+    -webkit-transform: translate($L , $T);
+    transform:         translate($L , $T);
+}
